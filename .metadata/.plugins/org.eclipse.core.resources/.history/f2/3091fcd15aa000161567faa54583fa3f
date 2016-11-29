@@ -1,0 +1,60 @@
+package lists;
+
+public class SinglyLinkedList<T> implements Listable<T>{
+
+	private Node head;
+	
+	private class Node
+	{
+		T data;
+		Node next;
+	}
+	
+	@Override
+	public void add(T data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int insertAt(int index, T data) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void delete(int index) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getSize() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void printAll() {
+		System.out.println(this.getClass().getSimpleName());
+	}
+
+	@Override
+	public T get(int index) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

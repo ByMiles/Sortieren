@@ -1,0 +1,6 @@
+package sort;
+
+public interface Caomparator <T>{
+	int compare(T_o1, T_o2);
+
+}

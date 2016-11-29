@@ -1,0 +1,15 @@
+import data.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s1 = new Student("Ted", "Lala", 2, 1, 14);
+		Student s2 = new Student("Max", "Power", 67, 1, 32);
+		Student s3 = new Student("Susi", "Geil", 1, 0, 18);
+		Student s4 = new Student("Simon", "Schnuck", 35, 1, 49);
+
+
+	}
+
+}

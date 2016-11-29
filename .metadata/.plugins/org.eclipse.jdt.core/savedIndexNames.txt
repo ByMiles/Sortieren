@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+/home/05/56515/Projekte/Algo/.metadata/.plugins/org.eclipse.jdt.core
+3850062358.index
+24360243.index
+1224561148.index

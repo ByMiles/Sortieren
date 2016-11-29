@@ -1,0 +1,76 @@
+package stack;
+
+public class Stack<T> implements Stackable<T> {
+
+	private Node head;
+	private int counter = 0;
+
+	private class Node {
+		T data;
+		Node next;
+	}
+
+	@Override
+	public void push(T obj) {
+
+		Node memorized = head;
+		head = new Node();
+		head.data = obj;
+		head.next = memorized;
+		counter++;
+
+	}
+
+	@Override
+	public T pop() {
+		if (head == null)
+			return null;
+
+		T retObj = head.data;
+		head = head.next;
+		counter--;
+		return retObj;
+	}
+
+	@Override
+	public T peek() {
+		if (head == null)
+			return null;
+		return head.data;
+	}
+
+	@Override
+	public int size() {
+
+		return counter;
+	}
+
+	@Override
+	public boolean empty() {
+		return (head == null);
+	}
+
+	@Override
+	public void clear() {
+		head = null;
+		counter = 0;
+
+	}
+
+	@Override
+	public void print() {
+		Node temp = head;
+		while (temp != null) {
+			System.out.println(temp.data);
+			temp = temp.next;
+		}
+
+	}
+
+	@Override
+	public void push(Object obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

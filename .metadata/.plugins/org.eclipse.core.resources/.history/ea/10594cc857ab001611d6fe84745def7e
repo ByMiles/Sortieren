@@ -1,0 +1,17 @@
+import data.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Hello World");
+	}
+		
+	Student s1 = new Student("Ted", "Lala", 0,0,0);
+	Student s2 = new Student("Max", "Power", 0,0,0);
+	Student s3 = new Student("Susi", "Geil", 0,0,0);
+	
+	System.out.println(s1);
+	System.out.println(s2);
+	System.out.println(s3);
+}

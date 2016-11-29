@@ -1,0 +1,10 @@
+import data.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student s1 = new Student("Ted", "Mosby", 1, 0);
+
+	}
+
+}

@@ -1,0 +1,17 @@
+import data.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student s1 = new Student("Ted", "Mosby", 1, 0);
+		Student s2 = new Student("Donald", "Duck", 1, 0);
+		Student s3 = new Student("Micky", "Maus", 2, 0);
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
+
+	}
+
+}
